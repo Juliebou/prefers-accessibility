@@ -64,12 +64,15 @@ html {
 /* stylelint-disable media-feature-name-no-unknown */
 
 @media (prefers-reduced-motion) {
-    .gear {
-      animation: none;
-    }
+
+  .gear {
+    animation: none;
+  }
+
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme: dark) {
+
   h1 {
     color: #ccc;
   }
@@ -78,16 +81,21 @@ html {
     background-color: #111;
   }
 
+}
+
+@media (prefers-color-scheme: dark) {
+
   .banner {
     background-color: #333;
   }
+
 }
 
 /**
- * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+* =============
+* Write your “prefers” media queries here, between these two `stylelint` comments.
+* Unfortunately, Markbot, is a little too old to understand them. :(
+* =============
+*/
 
 /* stylelint-enable */
